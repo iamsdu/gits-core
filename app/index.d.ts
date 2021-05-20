@@ -1,4 +1,3 @@
-export type App = {};
 export type OrganizationPreferences = {
   createOptionVisible: boolean;
   requireApprovalOnCreate: boolean;
