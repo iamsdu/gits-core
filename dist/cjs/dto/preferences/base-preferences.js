@@ -7,6 +7,9 @@ var BasePreferences = /** @class */ (function () {
     BasePreferences.prototype.toEntries = function () {
         return Object.entries(this);
     };
+    BasePreferences.prototype.tree = function () {
+        return 'four';
+    };
     return BasePreferences;
 }());
 exports.BasePreferences = BasePreferences;
