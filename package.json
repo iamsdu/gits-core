@@ -1,0 +1,9 @@
+{
+  "name": "gits-core",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/iamsdu/gits-core.git",
+  "author": "Sduu <gumedesduduzo@gmail.com>",
+  "private": true,
+  "typings": "./index.d.ts"
+}
