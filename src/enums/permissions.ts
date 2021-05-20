@@ -9,11 +9,3 @@ export enum Permission {
   ChangeEventState = '',
   ViewEvents = 'view-events',
 }
-
-export enum RoleType {
-  Administrator = 1,
-  Admin = 1,
-  Owner = 2,
-}
-
-export * from './permissions';
