@@ -7,13 +7,12 @@
   "module": "dist/esm/index.js",
   "types": "src/index.d.ts",
   "scripts": {
-    "build": "node tools/cleanup esm && tsc -p config/tsconfig.esm.json",
-    "prepare": "husky install"
+    "dev": "tsc -p config/tsconfig.esm.json --watch",
+    "build": "node tools/cleanup esm && tsc -p config/tsconfig.esm.json"
   },
   "devDependencies": {
     "prettier": "^2.3.0",
-    "typescript": "^4.2.4",
-    "husky": "^6.0.0"
+    "typescript": "^4.2.4"
   },
   "files": [
     "dist"
