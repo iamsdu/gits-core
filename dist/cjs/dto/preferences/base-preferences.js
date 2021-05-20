@@ -1,3 +1,6 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.BasePreferences = void 0;
 var BasePreferences = /** @class */ (function () {
     function BasePreferences() {
     }
@@ -9,4 +12,4 @@ var BasePreferences = /** @class */ (function () {
     };
     return BasePreferences;
 }());
-export { BasePreferences };
+exports.BasePreferences = BasePreferences;

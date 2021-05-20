@@ -1,3 +1,4 @@
+"use strict";
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
         extendStatics = Object.setPrototypeOf ||
@@ -13,7 +14,9 @@ var __extends = (this && this.__extends) || (function () {
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
 })();
-import { BasePreferences } from './base-preferences';
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.GetOrganizationPreferencesResponseDto = void 0;
+var base_preferences_1 = require("./base-preferences");
 var GetOrganizationPreferencesResponseDto = /** @class */ (function (_super) {
     __extends(GetOrganizationPreferencesResponseDto, _super);
     function GetOrganizationPreferencesResponseDto() {
@@ -23,5 +26,5 @@ var GetOrganizationPreferencesResponseDto = /** @class */ (function (_super) {
         return _this;
     }
     return GetOrganizationPreferencesResponseDto;
-}(BasePreferences));
-export { GetOrganizationPreferencesResponseDto };
+}(base_preferences_1.BasePreferences));
+exports.GetOrganizationPreferencesResponseDto = GetOrganizationPreferencesResponseDto;

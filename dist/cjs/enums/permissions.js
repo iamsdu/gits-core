@@ -1,4 +1,7 @@
-export var Permissions;
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Permissions = void 0;
+var Permissions;
 (function (Permissions) {
     Permissions["ManageApplicationPreferences"] = "manage-application-preferences";
     Permissions["ManageCategories"] = "manage-categories";
@@ -9,4 +12,4 @@ export var Permissions;
     Permissions["UnArchiveEvents"] = "unarchive-events";
     Permissions["ChangeEventState"] = "";
     Permissions["ViewEvents"] = "view-events";
-})(Permissions || (Permissions = {}));
+})(Permissions = exports.Permissions || (exports.Permissions = {}));

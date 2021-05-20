@@ -1,3 +1,4 @@
+"use strict";
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
         extendStatics = Object.setPrototypeOf ||
@@ -13,7 +14,9 @@ var __extends = (this && this.__extends) || (function () {
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
 })();
-import { GenericResponseDto } from '../generic-response.dto';
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.FetchUserDetailsResponseDto = void 0;
+var generic_response_dto_1 = require("../generic-response.dto");
 var FetchUserDetailsResponseDto = /** @class */ (function (_super) {
     __extends(FetchUserDetailsResponseDto, _super);
     function FetchUserDetailsResponseDto() {
@@ -22,5 +25,5 @@ var FetchUserDetailsResponseDto = /** @class */ (function (_super) {
         return _this;
     }
     return FetchUserDetailsResponseDto;
-}(GenericResponseDto));
-export { FetchUserDetailsResponseDto };
+}(generic_response_dto_1.GenericResponseDto));
+exports.FetchUserDetailsResponseDto = FetchUserDetailsResponseDto;
