@@ -8,4 +8,5 @@ export enum Permissions {
   UnArchiveEvents = 'unarchive-events',
   ChangeEventState = '',
   ViewEvents = 'view-events',
+  ManageEvents = 'manage-events',
 }

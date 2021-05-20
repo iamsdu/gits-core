@@ -12,4 +12,5 @@ var Permissions;
     Permissions["UnArchiveEvents"] = "unarchive-events";
     Permissions["ChangeEventState"] = "";
     Permissions["ViewEvents"] = "view-events";
+    Permissions["ManageEvents"] = "manage-events";
 })(Permissions = exports.Permissions || (exports.Permissions = {}));
