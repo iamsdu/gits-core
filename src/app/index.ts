@@ -1,21 +1,20 @@
-import { Permission, RoleType } from '../enums';
-import { IApplicationRoles } from '../interfaces';
+import { Permissions, RoleTypes } from '../enums';
 
 const OwnerPermissions = [
-  Permission.CreateEvents,
-  Permission.ArchiveEvents,
-  Permission.ChangeEventState,
-  Permission.ViewEvents,
+  Permissions.CreateEvents,
+  Permissions.ArchiveEvents,
+  Permissions.ChangeEventState,
+  Permissions.ViewEvents,
 ];
 
 const AdminPermissions = [
-  Permission.ManageApplicationPreferences,
+  Permissions.ManageApplicationPreferences,
   ...OwnerPermissions,
 ];
 
-export const RolePermissions: { [key: number]: Array<Permission> } = {
-  [RoleType.Admin]: AdminPermissions,
-  [RoleType.Owner]: OwnerPermissions,
+export const RolePermissions: { [key: number]: Array<Permissions> } = {
+  [RoleTypes.Admin]: AdminPermissions,
+  [RoleTypes.Owner]: OwnerPermissions,
 };
 
 export type OrganizationPreferences = {

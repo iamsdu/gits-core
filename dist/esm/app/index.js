@@ -4,17 +4,17 @@ var __spreadArray = (this && this.__spreadArray) || function (to, from) {
     return to;
 };
 var _a;
-import { Permission, RoleType } from '../enums';
+import { Permissions, RoleTypes } from '../enums';
 var OwnerPermissions = [
-    Permission.CreateEvents,
-    Permission.ArchiveEvents,
-    Permission.ChangeEventState,
-    Permission.ViewEvents,
+    Permissions.CreateEvents,
+    Permissions.ArchiveEvents,
+    Permissions.ChangeEventState,
+    Permissions.ViewEvents,
 ];
 var AdminPermissions = __spreadArray([
-    Permission.ManageApplicationPreferences
+    Permissions.ManageApplicationPreferences
 ], OwnerPermissions);
 export var RolePermissions = (_a = {},
-    _a[RoleType.Admin] = AdminPermissions,
-    _a[RoleType.Owner] = OwnerPermissions,
+    _a[RoleTypes.Admin] = AdminPermissions,
+    _a[RoleTypes.Owner] = OwnerPermissions,
     _a);
