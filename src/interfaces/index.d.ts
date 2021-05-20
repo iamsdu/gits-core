@@ -1,4 +1,4 @@
-import { RoleType } from '../enums';
+import { RoleTypes } from '../enums';
 
 export interface IResponse {
   success: boolean;
@@ -9,7 +9,7 @@ export interface IGenericResponse {
 }
 
 export interface IApplicationRoles {
-  type: RoleType;
+  type: RoleTypes;
 }
 
 export interface IOrganizationPreferences {
