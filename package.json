@@ -1,12 +1,24 @@
 {
   "name": "gits-core",
   "version": "1.0.0",
-  "main": "index.js",
   "repository": "https://github.com/iamsdu/gits-core.git",
   "author": "Sduu <gumedesduduzo@gmail.com>",
   "private": true,
   "typings": "./index.d.ts",
+  "scripts": {
+    "build": "run-p build:*",
+    "build:cjs": "node tools/cleanup cjs && tsc -p config/tsconfig.cjs.json",
+    "build:esm": "node tools/cleanup esm && tsc -p config/tsconfig.esm.json",
+    "build:types": "node tools/cleanup types && tsc -p config/tsconfig.types.json"
+  },
   "devDependencies": {
     "prettier": "^2.3.0"
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "npm-run-all": "^4.1.5",
+    "typescript": "^4.2.4"
   }
 }
