@@ -5,7 +5,7 @@
   "author": "Sduu <gumedesduduzo@gmail.com>",
   "private": true,
   "main": "dist/cjs/index.js",
-  "types": "src/index.d.ts",
+  "types": "dist/cjs/index.d.ts",
   "scripts": {
     "dev": "tsc -p config/tsconfig.cjs.json --watch",
     "build": "node tools/cleanup cjs && tsc -p config/tsconfig.cjs.json",
