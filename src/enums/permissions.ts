@@ -1,4 +1,4 @@
-export enum Permission {
+export enum Permissions {
   ManageApplicationPreferences = 'manage-application-preferences',
   ManageCategories = 'manage-categories',
   CreateEvents = 'create-events',
