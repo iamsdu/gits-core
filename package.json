@@ -5,13 +5,23 @@
   "author": "Sduu <gumedesduduzo@gmail.com>",
   "private": true,
   "main": "dist/cjs/index.js",
-  "types": "dist/cjs/index.d.ts",
+  "module": "dist/esm/index.js",
+  "types": "dist/types/index.d.ts",
   "scripts": {
-    "dev": "tsc -p config/tsconfig.cjs.json --watch",
+    "dev": "run-s clean watch",
+    "watch": "run-p watch:*",
+    "watch:cjs": "tsc -p config/tsconfig.cjs.json --watch",
+    "watch:esm": "tsc -p config/tsconfig.esm.json --watch",
+    "watch:types": "tsc -p config/tsconfig.types.json --watch",
+    "clean": "run-p clean:*",
+    "clean:cjs": "node tools/cleanup cjs",
+    "clean:esm": "node tools/cleanup esm",
+    "clean:types": "node tools/cleanup types",
     "build": "node tools/cleanup cjs && tsc -p config/tsconfig.cjs.json",
     "build:esm": "node tools/cleanup esm && tsc -p config/tsconfig.esm.json"
   },
   "devDependencies": {
+    "npm-run-all": "^4.1.5",
     "prettier": "^2.3.0",
     "typescript": "^4.2.4"
   },
