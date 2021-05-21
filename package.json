@@ -17,5 +17,8 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "class-validator": "^0.13.1"
+  }
 }
