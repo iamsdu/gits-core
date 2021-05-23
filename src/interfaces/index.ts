@@ -1,4 +1,4 @@
-import { RoleTypes } from '../enums';
+import { OrganizationState, RoleTypes } from '../enums';
 
 export interface IResponse {
   success: boolean;
@@ -20,4 +20,18 @@ export interface IOrganizaitonListItem {
   id: number;
   name: string;
   slug: string;
+}
+
+export interface IOrganizationRole {
+  id: number;
+  type: RoleTypes;
+}
+export interface IOrganization {
+  id: number;
+  name: string;
+  email: string;
+  slug: string;
+  updatedAt: Date;
+  createdAt: Date;
+  state: OrganizationState;
 }
