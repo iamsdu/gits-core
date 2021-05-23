@@ -9,11 +9,11 @@ export {
   IOrganizationPreferences,
   IResponse,
 } from './interfaces';
-export * from './dto';
 export {
   GenericResponseDto,
   CreateOrganizationDto,
   GetOrganizationResponseDto,
   GetOrganizationsResponseDto,
   GetOrganizationPreferencesResponseDto,
+  FetchEventsResponseDto,
 } from './dto';

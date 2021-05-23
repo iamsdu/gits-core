@@ -13,7 +13,5 @@ Object.defineProperty(exports, "__esModule", { value: true });
 __exportStar(require("./users/fetch-user-details-response.dto"), exports);
 __exportStar(require("./preferences/base-preferences"), exports);
 __exportStar(require("./preferences/get-organization-preferences-response.dto"), exports);
-__exportStar(require("./organizations/create-organization.dto"), exports);
-__exportStar(require("./organizations/get-organization-response.dto"), exports);
-__exportStar(require("./organizations/get-organizations-response.dto"), exports);
 __exportStar(require("./generic-response.dto"), exports);
+__exportStar(require("./organizations"), exports);
