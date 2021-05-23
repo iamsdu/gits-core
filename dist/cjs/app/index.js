@@ -18,6 +18,5 @@ var AdminPermissions = __spreadArray([
     enums_1.Permissions.ManageApplicationPreferences
 ], OwnerPermissions);
 exports.RolePermissions = (_a = {},
-    _a[enums_1.RoleTypes.Admin] = AdminPermissions,
     _a[enums_1.RoleTypes.Owner] = OwnerPermissions,
     _a);

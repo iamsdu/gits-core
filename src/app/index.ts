@@ -13,7 +13,6 @@ const AdminPermissions = [
 ];
 
 export const RolePermissions: { [key: number]: Array<Permissions> } = {
-  [RoleTypes.Admin]: AdminPermissions,
   [RoleTypes.Owner]: OwnerPermissions,
 };
 

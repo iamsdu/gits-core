@@ -15,6 +15,5 @@ var AdminPermissions = __spreadArray([
     Permissions.ManageApplicationPreferences
 ], OwnerPermissions);
 export var RolePermissions = (_a = {},
-    _a[RoleTypes.Admin] = AdminPermissions,
     _a[RoleTypes.Owner] = OwnerPermissions,
     _a);
