@@ -13,6 +13,7 @@ export * from './dto';
 export {
   GenericResponseDto,
   CreateOrganizationDto,
+  GetOrganizationResponseDto,
   GetOrganizationsResponseDto,
   GetOrganizationPreferencesResponseDto,
 } from './dto';

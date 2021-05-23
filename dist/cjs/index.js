@@ -10,7 +10,7 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
     for (var p in m) if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.GetOrganizationPreferencesResponseDto = exports.GetOrganizationsResponseDto = exports.CreateOrganizationDto = exports.GenericResponseDto = exports.RolePermissions = exports.RoleTypes = exports.Permissions = exports.OrganizationState = void 0;
+exports.GetOrganizationPreferencesResponseDto = exports.GetOrganizationsResponseDto = exports.GetOrganizationResponseDto = exports.CreateOrganizationDto = exports.GenericResponseDto = exports.RolePermissions = exports.RoleTypes = exports.Permissions = exports.OrganizationState = void 0;
 var enums_1 = require("./enums");
 Object.defineProperty(exports, "OrganizationState", { enumerable: true, get: function () { return enums_1.OrganizationState; } });
 Object.defineProperty(exports, "Permissions", { enumerable: true, get: function () { return enums_1.Permissions; } });
@@ -21,5 +21,6 @@ __exportStar(require("./dto"), exports);
 var dto_1 = require("./dto");
 Object.defineProperty(exports, "GenericResponseDto", { enumerable: true, get: function () { return dto_1.GenericResponseDto; } });
 Object.defineProperty(exports, "CreateOrganizationDto", { enumerable: true, get: function () { return dto_1.CreateOrganizationDto; } });
+Object.defineProperty(exports, "GetOrganizationResponseDto", { enumerable: true, get: function () { return dto_1.GetOrganizationResponseDto; } });
 Object.defineProperty(exports, "GetOrganizationsResponseDto", { enumerable: true, get: function () { return dto_1.GetOrganizationsResponseDto; } });
 Object.defineProperty(exports, "GetOrganizationPreferencesResponseDto", { enumerable: true, get: function () { return dto_1.GetOrganizationPreferencesResponseDto; } });
