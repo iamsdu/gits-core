@@ -1,4 +1,4 @@
-import { OrganizationState, RoleTypes } from '../enums';
+import { RoleTypes } from '../enums';
 export interface IResponse {
     success: boolean;
 }
@@ -16,5 +16,4 @@ export interface IOrganizaitonListItem {
     id: number;
     name: string;
     slug: string;
-    state: OrganizationState;
 }

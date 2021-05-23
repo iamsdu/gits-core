@@ -11,9 +11,10 @@ var OwnerPermissions = [
     Permissions.ChangeEventState,
     Permissions.ViewEvents,
 ];
-var AdminPermissions = __spreadArray([
+var AdministratorPermissions = __spreadArray([
     Permissions.ManageApplicationPreferences
 ], OwnerPermissions);
 export var RolePermissions = (_a = {},
+    _a[RoleTypes.Administrator] = AdministratorPermissions,
     _a[RoleTypes.Owner] = OwnerPermissions,
     _a);

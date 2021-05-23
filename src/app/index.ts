@@ -7,12 +7,13 @@ const OwnerPermissions = [
   Permissions.ViewEvents,
 ];
 
-const AdminPermissions = [
+const AdministratorPermissions = [
   Permissions.ManageApplicationPreferences,
   ...OwnerPermissions,
 ];
 
 export const RolePermissions: { [key: number]: Array<Permissions> } = {
+  [RoleTypes.Administrator]: AdministratorPermissions,
   [RoleTypes.Owner]: OwnerPermissions,
 };
 

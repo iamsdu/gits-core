@@ -14,9 +14,10 @@ var OwnerPermissions = [
     enums_1.Permissions.ChangeEventState,
     enums_1.Permissions.ViewEvents,
 ];
-var AdminPermissions = __spreadArray([
+var AdministratorPermissions = __spreadArray([
     enums_1.Permissions.ManageApplicationPreferences
 ], OwnerPermissions);
 exports.RolePermissions = (_a = {},
+    _a[enums_1.RoleTypes.Administrator] = AdministratorPermissions,
     _a[enums_1.RoleTypes.Owner] = OwnerPermissions,
     _a);
