@@ -1,12 +1,5 @@
-import { OrganizationState } from '../../enums';
+import { OrganizaitonListItem } from '../../interfaces';
 import { GenericResponseDto } from '../generic-response.dto';
-
-type OrganizaitonListItem = {
-  id: number;
-  name: string;
-  slug: string;
-  state: OrganizationState;
-};
 
 export class GetOrganizationsResponseDto extends GenericResponseDto {
   organizations: Array<OrganizaitonListItem>;

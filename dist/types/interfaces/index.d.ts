@@ -1,4 +1,4 @@
-import { RoleTypes } from '../enums';
+import { OrganizationState, RoleTypes } from '../enums';
 export interface IResponse {
     success: boolean;
 }
@@ -11,4 +11,10 @@ export interface IApplicationRoles {
 export interface IOrganizationPreferences {
     createOptionVisible: boolean;
     requireApprovalOnCreate: boolean;
+}
+export interface OrganizaitonListItem {
+    id: number;
+    name: string;
+    slug: string;
+    state: OrganizationState;
 }
