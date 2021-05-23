@@ -16,7 +16,6 @@ Object.defineProperty(exports, "OrganizationState", { enumerable: true, get: fun
 Object.defineProperty(exports, "Permissions", { enumerable: true, get: function () { return enums_1.Permissions; } });
 Object.defineProperty(exports, "RoleTypes", { enumerable: true, get: function () { return enums_1.RoleTypes; } });
 __exportStar(require("./app"), exports);
-__exportStar(require("./interfaces"), exports);
 __exportStar(require("./dto"), exports);
 var dto_1 = require("./dto");
 Object.defineProperty(exports, "GenericResponseDto", { enumerable: true, get: function () { return dto_1.GenericResponseDto; } });

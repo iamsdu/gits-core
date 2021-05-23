@@ -12,7 +12,7 @@ export interface IOrganizationPreferences {
     createOptionVisible: boolean;
     requireApprovalOnCreate: boolean;
 }
-export interface OrganizaitonListItem {
+export interface IOrganizaitonListItem {
     id: number;
     name: string;
     slug: string;

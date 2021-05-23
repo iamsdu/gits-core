@@ -1,6 +1,12 @@
 export { OrganizationState, Permissions, RoleTypes } from './enums';
 export * from './app';
-export * from './interfaces';
+export {
+  IApplicationRoles,
+  IGenericResponse,
+  IOrganizaitonListItem,
+  IOrganizationPreferences,
+  IResponse,
+} from './interfaces';
 export * from './dto';
 export {
   GenericResponseDto,
