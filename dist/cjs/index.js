@@ -10,10 +10,11 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
     for (var p in m) if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.CreateOrganizationDto = void 0;
+exports.CreateOrganizationDto = exports.GenericResponseDto = void 0;
 __exportStar(require("./enums"), exports);
 __exportStar(require("./app"), exports);
 __exportStar(require("./interfaces"), exports);
 __exportStar(require("./dto"), exports);
 var dto_1 = require("./dto");
+Object.defineProperty(exports, "GenericResponseDto", { enumerable: true, get: function () { return dto_1.GenericResponseDto; } });
 Object.defineProperty(exports, "CreateOrganizationDto", { enumerable: true, get: function () { return dto_1.CreateOrganizationDto; } });
