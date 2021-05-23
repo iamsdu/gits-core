@@ -22,7 +22,7 @@ var FetchUserDetailsResponseDto = /** @class */ (function (_super) {
     function FetchUserDetailsResponseDto() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
         _this.roles = [];
-        _this.organizations = 0;
+        _this.organizationsCount = 0;
         return _this;
     }
     return FetchUserDetailsResponseDto;
