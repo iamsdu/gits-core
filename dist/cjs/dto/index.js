@@ -15,3 +15,4 @@ __exportStar(require("./preferences/base-preferences"), exports);
 __exportStar(require("./preferences/get-organization-preferences-response.dto"), exports);
 __exportStar(require("./generic-response.dto"), exports);
 __exportStar(require("./organizations"), exports);
+__exportStar(require("./users"), exports);

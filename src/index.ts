@@ -1,7 +1,7 @@
 export { OrganizationState, Permissions, RoleTypes } from './enums';
 export { RolePermissions } from './app';
 export {
-  IApplicationRoles,
+  IApplicationRole,
   IGenericResponse,
   IOrganization,
   IOrganizationRole,
@@ -16,4 +16,5 @@ export {
   GetOrganizationsResponseDto,
   GetOrganizationPreferencesResponseDto,
   FetchEventsResponseDto,
+  GetUserDetailsResponseDto,
 } from './dto';

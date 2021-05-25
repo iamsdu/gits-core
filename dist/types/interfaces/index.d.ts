@@ -5,8 +5,12 @@ export interface IResponse {
 export interface IGenericResponse {
     success?: boolean;
 }
-export interface IApplicationRoles {
+export interface IApplicationRole {
     type: RoleTypes;
+}
+export interface IUserDetails {
+    createdAt: Date;
+    updatedAt: Date;
 }
 export interface IOrganizationPreferences {
     createOptionVisible: boolean;
